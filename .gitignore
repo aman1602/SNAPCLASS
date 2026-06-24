@@ -2,3 +2,8 @@ venv/
 .streamlit/
 __pycache__/
 *.pyc
+
+.env
+.vscode
+
+dist/
