@@ -108,6 +108,17 @@ def style_base_layout():
             button:hover{
                 transform: scale(1.05)
             }
+
+            
+            /* Hide "Hosted by Streamlit" footer */
+            footer {
+                visibility: hidden;
+            }
+
+            /* Hide GitHub / toolbar elements */
+            [data-testid="stToolbar"] {
+                visibility: hidden;
+            }
         </style>
         """ , 
         unsafe_allow_html=True
